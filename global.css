@@ -301,6 +301,21 @@ header{
   margin: 5px 0;
  }
 
+ .hamburger.active span:nth-child(1) {
+  transform: rotate(45deg);
+  position: relative;
+  top: 10px;
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;  /* Hide the middle bar */
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -10px;
+}
   
 @media only screen and (max-width: 1024px) {
 
@@ -325,11 +340,38 @@ header{
     .hamburger{
       display: block;
     }
+    .nav-list-links{
+      position: absolute;
+      top: 120px;
+      left: 0;
+      width: 100%;
+      border-radius: 32px;
+      overflow: hidden;
+      height: 0;
+      transition: height 0.3s ease;
+    }
+    .nav-list-links.active{
+      height: 20rem;
+
+    }
     .nav-links{
-     display: none;
+      flex-direction: column;
+      width: 90%;
+      background: rgba(8, 8, 8, 0.582);
+      backdrop-filter: blur(15px);
+      padding: 20px 0;
+      border-radius: 32px;
+      margin: auto;
+    }
+    .navbar .nav-cotact{
+      margin-top: 10px;
+    }
+    .navbar li a{
+      color: #fff;
     }
     header{
       position: relative;
+      mix-blend-mode: unset;
     }
     .content-main{
         gap: 30px;
@@ -446,6 +488,9 @@ footer .footer-mail .main-btn {
 
   @media only screen and (max-width: 530px) {
 
+    .nav-list-links{
+      top: 80px;
+    }
     .mt{
       margin-top: 20px;
     }
