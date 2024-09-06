@@ -540,5 +540,7 @@ footer .footer-mail .main-btn {
 .navbar .logo img{
   width: 70%;
 }
-
+.main-btn{
+  padding: 10px 50px;
+}
 }
