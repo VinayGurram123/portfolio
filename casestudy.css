@@ -398,4 +398,12 @@ font-weight: 700;
     .wireframing-grid-2, .design-grid-2{
         grid-template-columns: 1fr 1fr;
     }
+    .challenges-img, .use-flow-img{
+        height: 450px;
+        overflow: scroll;
+    }
+    .challenges-img img, .use-flow-img img{
+        max-width: 1200px;
+        height: 700px;
+    }
 }
