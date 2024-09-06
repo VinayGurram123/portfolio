@@ -211,6 +211,9 @@
     margin-top: 32px;
     overflow: hidden;
   }
+  .hover-text{
+    max-width: 85%;
+  }
   
   .hover .img {
     overflow: hidden;
@@ -366,6 +369,7 @@ font-family: myfont;
 font-size: 18px;
 font-weight: 400;
 line-height: 26px;
+max-width: 80%;
 }
 .case-lists .btn{
     color: #888;
@@ -487,7 +491,7 @@ ul li .list-main{
   gap: 20px;
 }
 .list-items{
-  justify-content: center;
+  justify-content: space-between;
 }
 .list-title{
   text-align: center;
@@ -521,9 +525,15 @@ ul li .list-main{
 .projects-section .hover {
   grid-template-columns: 1fr;
 }
+.hover .img{
+  border-radius: 16px;
+}
 .list-items{
   gap: 25px;
   margin-left: 20px;
+}
+.case-study-section .title{
+  margin-bottom: 32px;
 }
 .case-study-para .case-study {
   border-radius: 16px;
@@ -556,6 +566,29 @@ animation: slide2 3s linear infinite;
   display: none;
 }
 }
+
+@media only screen and (max-width: 749px) {
+  .hover-btn {
+    opacity: 1;
+    width: 95%;
+    bottom: 35px;
+    padding: 8px;
+  }
+  .hover-btn h3 {
+    font-size: 14px;
+}
+.hover-btn h4 {
+  font-size: 12px;
+}
+.hover-btn img {
+  height: 40px;
+  width: 40px;
+}
+.list-items ul li{
+  font-size: 16px;
+}
+}
+
 
 @media only screen and (max-width: 570px) {
 

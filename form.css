@@ -66,6 +66,9 @@ textarea:focus{
     background: #1E5EFF;
     padding: 16px 32px; 
 }
+.form-btn .main-btn{
+    padding: 8px 20px;
+}
 
 @media only screen and (max-width: 1024px){
     .form{

@@ -35,7 +35,9 @@
     margin-top: 32px;
     overflow: hidden;
   }
-  
+ .hover-text{
+    max-width: 85%;
+  } 
   .hover .img {
     overflow: hidden;
     transition: transform 0.5s ease; /* Adjusted to ensure smooth scaling */
