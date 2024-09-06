@@ -355,9 +355,7 @@ font-weight: 700;
         grid-template-columns: 1fr;
         text-align: center;
     }
-    .challenges-img,.use-flow-img{
-        padding: 10px;
-    }
+
     .card{
         border-radius: 40px;
         gap: 10px;
