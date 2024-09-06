@@ -220,6 +220,7 @@
     border: 1px solid  #3D3D3D;
     background: rgba(41, 41, 41, 0.10);
     backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
     padding: 20px 44px 20px 20px;
     min-height: 100%;
 }
