@@ -371,7 +371,7 @@ header{
       padding-bottom: 44px;
     }
     .responsive-nav ul li a{
-      color: var(--Black-300, #B0B0B0);
+      color:  #B0B0B0;
 font-size: 33.28px;
 font-style: normal;
 font-weight: 500;
@@ -382,7 +382,7 @@ text-decoration: none;
       margin-top: 88px;
     }
     .responsive-nav .alag-links div a{
-      color: var(--Black-0, #FFF);
+      color:  #FFF;
 
 font-size: 16px;
 font-weight: 400;
